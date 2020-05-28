@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2C0BD8247F9C640089F4A0 /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C0BD7247F9C640089F4A0 /* ScaleSegue.swift */; };
 		5ED65E63247E6F5000544A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E62247E6F5000544A44 /* AppDelegate.swift */; };
 		5ED65E65247E6F5000544A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E64247E6F5000544A44 /* SceneDelegate.swift */; };
 		5ED65E67247E6F5000544A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E66247E6F5000544A44 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		5ED65E6F247E6F5200544A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED65E6D247E6F5200544A44 /* LaunchScreen.storyboard */; };
 		5ED65E7A247E6F5200544A44 /* PresentTransitionAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E79247E6F5200544A44 /* PresentTransitionAnimationTests.swift */; };
 		5ED65E85247E6F5200544A44 /* PresentTransitionAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E84247E6F5200544A44 /* PresentTransitionAnimationUITests.swift */; };
+		5ED65E93247E710100544A44 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E92247E710100544A44 /* TableViewCell.swift */; };
+		5ED65E95247E7C2D00544A44 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED65E94247E7C2D00544A44 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E2C0BD7247F9C640089F4A0 /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
 		5ED65E5F247E6F5000544A44 /* PresentTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED65E62247E6F5000544A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED65E64247E6F5000544A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		5ED65E80247E6F5200544A44 /* PresentTransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentTransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED65E84247E6F5200544A44 /* PresentTransitionAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTransitionAnimationUITests.swift; sourceTree = "<group>"; };
 		5ED65E86247E6F5200544A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED65E92247E710100544A44 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5ED65E94247E7C2D00544A44 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5ED65E6B247E6F5200544A44 /* Assets.xcassets */,
 				5ED65E6D247E6F5200544A44 /* LaunchScreen.storyboard */,
 				5ED65E70247E6F5200544A44 /* Info.plist */,
+				5ED65E92247E710100544A44 /* TableViewCell.swift */,
+				5ED65E94247E7C2D00544A44 /* DescriptionViewController.swift */,
+				5E2C0BD7247F9C640089F4A0 /* ScaleSegue.swift */,
 			);
 			path = PresentTransitionAnimation;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED65E67247E6F5000544A44 /* ViewController.swift in Sources */,
+				5E2C0BD8247F9C640089F4A0 /* ScaleSegue.swift in Sources */,
+				5ED65E93247E710100544A44 /* TableViewCell.swift in Sources */,
 				5ED65E63247E6F5000544A44 /* AppDelegate.swift in Sources */,
+				5ED65E95247E7C2D00544A44 /* DescriptionViewController.swift in Sources */,
 				5ED65E65247E6F5000544A44 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
